@@ -6,7 +6,7 @@ In :- 2024/6/7
 import telebot as _tb_
 from telebot import types as _tp_
 import requests as _rq_, hashlib as _hl_, random as _rnd_, string as _str_, time as _tm_
-_tkn_ = "Token"  # توكنك هنا <--
+_tkn_ = "7397205638:AAHCGUhusIjout6ryLTE3dLXlZTN9W57Ycg"  # توكنك هنا <--
 _bt_ = _tb_.TeleBot(_tkn_)
 @_bt_.message_handler(commands=["start"])
 def _strt_(_msg_):
